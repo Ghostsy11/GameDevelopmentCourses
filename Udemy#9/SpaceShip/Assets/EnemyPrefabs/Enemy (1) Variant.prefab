@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3849512718865715328
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1800701504521206071, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2848649132704169265, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2848649132704169265, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2848649132704169265, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939839557606345316, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939839557606345316, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939839557606345316, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939839557606345316, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939839557606345316, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939839557606345316, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939839557606345316, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939839557606345316, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939839557606345316, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939839557606345316, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939839557606345316, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2939839557606345316, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327840294193435742, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: _particleEffect
+      value: 
+      objectReference: {fileID: 8628125918847271549, guid: 6621452d8f2ffee4188b51425e82dfd6, type: 3}
+    - target: {fileID: 8895740798053318045, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
+      propertyPath: m_Name
+      value: Enemy (1) Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a220bb26d72ce149a5a0e02c44bd1d5, type: 3}
