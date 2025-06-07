@@ -69,8 +69,6 @@ public class Quiz : MonoBehaviour
         SetButtonState(false);
         _timer.CancelTime();
         scoreText.text = "Score: " + _scoreKeeper.CalculateScore() + "%";
-
-
     }
 
     private void DisPlayAnswer(int index)
@@ -82,7 +80,6 @@ public class Quiz : MonoBehaviour
             buttonImage = _answerButtons[index].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
             _scoreKeeper.IncrementCorrectAnswers();
-
         }
         else
         {
@@ -91,10 +88,6 @@ public class Quiz : MonoBehaviour
             _questionText.text = "Sorry the answer was:\n" + correctAnswer;
             buttonImage = _answerButtons[correctAnswerIndex].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
-
-
-
-
         }
     }
 
@@ -115,12 +108,10 @@ public class Quiz : MonoBehaviour
             return;
         }
 
-
     }
 
     private void GetRandomQuestion()
     {
-
         int indexer = Random.Range(0, questions.Count);
         _currentQuestion = questions[indexer];
 
@@ -129,12 +120,7 @@ public class Quiz : MonoBehaviour
             questions.Remove(_currentQuestion);
         }
 
-
-
     }
-
-
-
 
     private void DisplayQuestions()
     {
